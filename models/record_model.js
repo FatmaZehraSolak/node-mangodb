@@ -7,6 +7,7 @@ const recordSchema = mongoose.Schema(
       required: true,
       trim: true,
     },
+    
     value: {
       type: String,
       required: true,

@@ -10,6 +10,7 @@ mongoose
   .connect(url, { useNewUrlParser: true, useUnifiedTopology: true })
   .catch((error) => {
     console.log(error);
+    
   });
 
 app.use(express.urlencoded({ extended: true }));
